@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-learning-pro",
+  "version": "1.0.0",
+  "description": "nodejs pro hoidanit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcukko/nodejs-learning.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Marcukko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcukko/nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/Marcukko/nodejs-learning#readme",
+  "dependencies": {
+    "express": "5.0.1",
+    "typescript": "^6.0.3"
+  }
+}
