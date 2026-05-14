@@ -4,7 +4,19 @@
   "description": "nodejs pro hoidanit",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "dev": "nodemon"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "node_modules"
+    ],
+    "exec": "ts-node ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -22,7 +34,13 @@
   },
   "homepage": "https://github.com/Marcukko/nodejs-learning#readme",
   "dependencies": {
-    "express": "5.0.1",
+    "dotenv": "16.4.7",
+    "express": "^5.0.1",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "3.1.9",
+    "ts-node": "10.9.2"
   }
 }
